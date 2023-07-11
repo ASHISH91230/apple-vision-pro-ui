@@ -1513,14 +1513,22 @@ body {
         width: 100%;
         height: 100%;
     }
-    
-    #page16 button{
+    #page16 h2{
         display: none;
     }
-    #page16 img{
-        /* height: 100%; */
-        width: 100%;
+    
+    #page16 button{
+        position: relative;
+        scale: 1.5;
+        
+        
     }
+    #page16 img{
+        position: absolute;
+        top: 5%;
+        scale: 1.5;
+    }
+   
 
 #page17{
     scale: 2.1;
@@ -1558,7 +1566,7 @@ body {
         font-size: smaller;
     }
     #page25 h1{
-        font-size:3rem;
+        font-size:2.2rem;
     }
     #page25 button{
         font-size: 10px;
